@@ -1,6 +1,41 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: hsl(0, 0%, 100%);
+*{
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
     
 }
+
+/* Navegacion 5 iconos */
+nav a,header a {
+    
+    color: grey;
+    text-decoration: none;
+    margin: 0 0.5em;
+    align-items: center;
+}
+.menu2 ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+/* cuadrados finales */
+.menu2 ul > button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c5c6c7;
+    border: none;
+    margin: auto 10px auto;
+}
+.menu2 ul > button:hover{
+    background: grey;
+}
+
