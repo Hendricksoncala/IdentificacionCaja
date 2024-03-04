@@ -3,9 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    border:1px black solid;
+}
+header{
+    background-color: salmon;
+    padding: 20px;
 }
 
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+}
+p{
+    padding: 10px;
+    margin: 5px;
+}
 
 .titule{
     display: flex;
@@ -16,4 +29,69 @@
 }
 .titule h6{
     padding: 2vh;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*2 parte del header*/
+h2, h6{
+    padding: 10px;
+}
+#box{
+    height: 400px;
+    width: 400px;
+
+}
+#box2{
+    height: 200px;
+    width: 400px;
+}
+#box3{
+    height: 200px;
+    width: 688px;
+}
+#box, #box2{
+    padding: 10px;
+}
+.titule, .sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barras{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1fbf92;
+    padding: 15px;
+}
+.pagina{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 10px;
+}
+.bloqueizq{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    float: left;
+}
+.bloqueder{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+
+    
+}
+.nota1, .nota2{
+    padding-top: 0px;
+    border-bottom: 1px solid black;
+
 }
